@@ -1,0 +1,4 @@
+benchmark:
+  array_size: 10000000   # 配列の要素数 (array_sum / elementwise_sqrt)
+  matrix_size: 128          # 行列サイズ N (N×N の dot 積)
+  repeat: 10                 # 1タスクあたりの計測回数 (中央値を使用)
